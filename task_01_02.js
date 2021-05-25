@@ -5,6 +5,6 @@
 
 var admin;
 var name;
-admin = prompt('Введите имя админа:');
-name = admin;
-alert('Поздравляем, админа теперь зовут ' + name);
+name = prompt('Введите имя админа:');
+admin = name;
+alert('Поздравляем, админа теперь зовут ' + admin);
