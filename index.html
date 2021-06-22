@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda_shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 class="shop_name">Panda_shop</h1>
+    </div>
+
+    <div class="menu_basket_container">
+
+        <div class="menu">
+            <ul class="menu_list">
+                <li class="menu_point">Контакты</li>
+                <li class="menu_point">Акции</li>
+                <li class="menu_point">Партнёрам</li>
+                <li class="menu_point">О компании</li>
+            </ul>
+        </div>
+
+        <div class="basket">
+            <img src="img/design/Basket_img.png" alt="Basket" class="basket_img">
+            <div class="basket_content">Корзина пуста</div>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <div class="catalog">
+            <div class="catalog_items"></div>
+            <div class="catalog_buttons"></div>
+        </div>
+        <div class="actions"></div>
+    </div>
+
+    <div class="footer">
+        <p class="copyright">© panda_co_panda 2021 г.</p>
+    </div>
+
+    <div class="image_window" id='img_window'>
+
+        <div class="imgw_header">
+            <button class="imgw_close"></button>
+        </div>
+
+        <div class="imgw_buttons">
+            <button class="imgw_button" id="img_preview">Назад</button>
+            <p class="imgw_count_text"></p>
+            <button class="imgw_button" id="img_next">Вперёд</button>
+        </div>
+
+    </div>
+
+    <div class="basket_window" id="bw_window">
+
+        <div class="bw_header">
+            <button class="bw_close"></button>
+        </div>
+
+        <div class="bw_menu">
+            <ul class="bw_menu_list">
+                <li class="bw_menu_point" data_id='0'>Корзина</li>
+                <li class="bw_menu_point" data_id='1'>Адрес</li>
+                <li class="bw_menu_point" data_id='2'>Комментарий</li>
+            </ul>
+        </div>
+
+        <div class="bw_title"></div>
+
+        <div class="bw_content"></div>
+
+        <div class="bw_buttons"></div>
+
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
